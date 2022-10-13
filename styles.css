@@ -3,8 +3,13 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 300;
+}
 
+a {
+    text-decoration: none;
+    color: #b5ff90;
 }
 
 /*HEADER*/
@@ -45,5 +50,38 @@ nav a {
 #forside_singapore { 
     height: 900px;
     background-image: url(images/singapore_forside.jpg);
+    background-size: 1366px auto;
+    background-repeat: no-repeat;
+}
+
+#forside_singapore_tekst {
+    /*padding-top: 350px;
+    padding-left: 100px;*/
+color: #b5ff90;
+position: absolute;
+top: 250px;
+left: 100px;
+}
+
+h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+#forside_singapore_tekst p {
+    width: 20%;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.læsmere_knap_grøn {
+    border: 2px solid #b5ff90;
+    width: 100px;
+    padding: 7px 15px 7px 25px;
+    font-size: 16px;
+    margin-top: 30px;
+    
     
 }
