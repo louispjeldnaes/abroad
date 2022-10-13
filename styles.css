@@ -1,0 +1,49 @@
+/*GENEREL STYLING*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+}
+
+/*HEADER*/
+header { 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.7);
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}   
+
+#logo {
+    height: 40px;
+    margin-left: 25px;
+   
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+    
+}
+
+#søge_ikon {
+    height: 20px;
+    margin-left: 25px;
+}
+
+/*FORSIDE*/
+
+#forside_singapore { 
+    height: 900px;
+    background-image: url(images/singapore_forside.jpg);
+    
+}
