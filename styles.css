@@ -11,6 +11,36 @@ a {
     text-decoration: none;
     color: #b5ff90;
 }
+h1 {
+    font-size: 65px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0;
+    
+}
+
+hr {
+    width: 200px;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #b5ff90;
+    margin-top: 0;
+    margin-left: 320px;
+}
 
 /*HEADER*/
 header { 
@@ -48,9 +78,9 @@ nav a {
 /*FORSIDE*/
 
 #forside_singapore { 
-    height: 900px;
+    height: 750px;
     background-image: url(images/singapore_forside.jpg);
-    background-size: 1366px auto;
+    background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
@@ -63,12 +93,7 @@ top: 250px;
 left: 100px;
 }
 
-h1 {
-    font-size: 65px;
-    text-transform: uppercase;
-    margin-bottom: 0;
-    font-weight: 300;
-}
+
 
 #forside_singapore_tekst p {
     width: 20%;
@@ -83,5 +108,87 @@ h1 {
     font-size: 16px;
     margin-top: 30px;
     
+    
+}
+
+/*POPULÆRE DESTINATIONER*/
+
+.tre_kort {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tre_kort a {
+    color: white;
+}
+#kort_norge {
+    background-image: url(images/norge.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 65%;
+   margin-top: 75px;
+   margin-right: 45px;
+
+}
+
+.tre_kort_stor_tekst {
+    position: relative;
+    top: 430px;
+    left:200px;
+}
+.tre_kort_stor_tekst h3 {
+    font-size: 45px;
+
+}
+#kort_norge hr {
+    position: relative;
+    top: 435px;
+    right: 350px;
+    width: 310px;
+}
+
+#kort_australien {
+    background-image: url(images/australien.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 320px;
+    margin-top: 100px;
+    
+
+}
+#kort_groenland {
+    background-image: url(images/groenland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 320px;
+    margin-top: 25px;
+
+}
+
+.tre_kort p {
+    width: 200px;
+    font-size: 13px;
+    margin: 0;
+}
+
+.to_kort_tekst {
+    border-left: 3px solid #b5ff90;
+    position: relative;
+    top: 135px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+
+
+
+/*MEST LÆSTE*/
+
+
+.mest_læste {
+    height: 900px;
     
 }
