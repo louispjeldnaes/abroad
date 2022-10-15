@@ -58,9 +58,10 @@ hr {
 
 /*HEADER*/
 header { 
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(255,255,255,0.7);
+    background-color: rgba(240,239,237,0.7);
     height: 60px;
     position: fixed;
     top: 0;
@@ -77,9 +78,10 @@ nav a {
     text-decoration: none;
     color: black;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 30px;
     margin-right: 30px;
+ 
     
     
 }
@@ -222,13 +224,13 @@ left: 100px;
 
 .fire_kort a {
     color: black;
-    width: 300px;
+    width: 250px;
     
 }
 
 .fire_kort img {
     height: auto;
-    width: 300px;
+    width: 250px;
 }
 
 .fire_kort p {
@@ -298,7 +300,7 @@ left: 100px;
 }
 
 #kultur {
-    height: 900px;
+    height: 800px;
     display: flex;
     font-weight: 400;
 }
@@ -377,4 +379,76 @@ left: 100px;
 .kultur_højre h5 {
     margin-top: 30px ;
     margin-right: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+    
+}
+
+footer h4 {
+    font-size: 20px ;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer hr {
+    width: 250px;
+    position: relative;
+    left: 75px;
+}
+
+.instagram_billeder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 87.5px;
+
+}
+.instagram_billeder img {
+    width: 175px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.om_os {
+    background-color: #fef6e9;
+    display: flex;
+    justify-content: space-around;
+    padding: 200px 100px 100px 100px ;
+}
+.om_os p {
+    font-size: 14px;
+}
+
+#omos_tekst {
+    width: 50%;
+}
+#omos_tekst p {
+    width: 95%;
+}
+
+#kontakt {
+    border-left: 2px solid black;
+    padding-left: 60px;
+}
+
+#følg_os {
+    border-left: 2px solid black;
+    padding-left: 60px;  
+}
+
+.om_os img {
+    height: 50px;
+    margin-top: 40px;
+    margin-right:10px ;
 }
