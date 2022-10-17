@@ -2,7 +2,7 @@
 
 /*1. SEKTION - INTRO*/
 .destination_intro {
-    height: 700px;
+    height: 680px;
     background-image: url(../images/gardens_by_the_bay_intro.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     width: 30%;
     text-align: center;
     position: relative;
-    top: 450px;
+    top: 425px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -30,7 +30,7 @@
 .destination_intro p {
    
     margin-top: 0;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /*2. SEKTION - FAKTA & INTRO-INDHOLD*/
@@ -57,12 +57,13 @@
     height: 175px;
     width: 175px;
     position: relative;
-    left: 85px;
+    left: 140px;
 }
 
 .artikel_start article {
-    width: 66%;
+    width: 60%;
     margin-right: 300px;
+    margin-left: 50px;
     margin-top: 30px;
 }
 
@@ -73,7 +74,7 @@
 #anden_sektion {
     background-color: #fef6e9;
 
-    margin-left: 375px ;
+    margin-left: 425px ;
     padding-left: 10px;
     padding-bottom: 15px;
     
@@ -202,4 +203,52 @@
     width: 100%;
     position: absolute;
     top: 3750px;
+}
+
+
+
+/* KULTUR-ARTIKEL - STREET FOOD*/
+
+#street_food .destination_intro {
+    background-image: url(../images/street_food_woman.jpg);
+    background-size: cover;
+}
+
+#street_food h1 {
+    width: 40%;
+    padding-top: 25px;
+}
+
+#street_food article {
+    width: 60%;
+
+    margin: 50px auto 75px auto;
+}
+
+#street_food .grønt_hjørne {
+    position: absolute;
+    left: 200px;
+}
+
+
+/*Liste med retter*/
+.liste_med_ting {
+    height: 900px;
+}
+
+.kulturliste_kort {
+    display: flex;
+    margin-left: 200px;
+}
+
+.kulturliste_tekst_boks {
+    background-color: #fef6e9;
+    height: 120px;
+    padding: 50px 250px 50px 50px;
+}
+
+.kulturliste_tekst_boks p {
+    
+
+
 }
