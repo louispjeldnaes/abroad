@@ -129,3 +129,57 @@
     height: 150px;
     padding: 75px 290px 20px 40px;
 }
+
+
+/*4. SEKTION - afsnit 2*/
+
+
+
+.afsnit_to {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.afsnit_to .grønt_hjørne {
+    
+    position: relative;
+    top: 150px;
+    left: 0;
+}
+
+.afsnit_to li {
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.afsnit_to article {
+    margin-left: 30px;
+}
+
+
+/* 5. SEKTION - TIPS OG TRICKS*/
+
+.tips_section {
+    background-color: #fef6e9;
+    margin-right: 150px;
+}
+
+.tips_section article {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.tips_section li {
+    text-decoration: none;
+    font-size: 12px ;
+}
+
+#singapore_skyline {
+    width: 100%;
+    position: relative;
+    bottom: 425px;
+}
