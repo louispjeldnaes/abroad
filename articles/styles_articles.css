@@ -221,7 +221,6 @@
 
 #street_food article {
     width: 60%;
-
     margin: 50px auto 75px auto;
 }
 
@@ -233,22 +232,44 @@
 
 /*Liste med retter*/
 .liste_med_ting {
-    height: 900px;
+    
+    margin-bottom: 100px;
 }
 
-.kulturliste_kort {
+.liste_med_ting p {
+    width: 450px;
+}
+/*Øverste kort*/
+
+.kulturliste_kort_øverste {
     display: flex;
     margin-left: 200px;
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
 
-.kulturliste_tekst_boks {
+.kulturliste_tekst_boks_øverste {
     background-color: #fef6e9;
     height: 120px;
     padding: 50px 250px 50px 50px;
 }
 
-.kulturliste_tekst_boks p {
-    
 
+/*Nederste kort*/
 
+.kulturliste_kort_nederst {
+    display: flex;
+    margin-right: 200px;
+    position: relative;
+    bottom: 25px;
 }
+
+.kulturliste_tekst_boks_nederst {
+    background-color: #fef6e9;
+    height: 120px;
+    padding: 50px 100px 50px 200px;
+    position: relative;
+    top: 80px;
+    
+}
+
