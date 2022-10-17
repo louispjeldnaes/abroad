@@ -2,7 +2,7 @@
 
 /*1. SEKTION - INTRO*/
 .destination_intro {
-    height: 750px;
+    height: 700px;
     background-image: url(../images/gardens_by_the_bay_intro.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
     width: 30%;
     text-align: center;
     position: relative;
-    top: 400px;
+    top: 450px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -73,7 +73,7 @@
 #anden_sektion {
     background-color: #fef6e9;
 
-    margin-left: 338px ;
+    margin-left: 375px ;
     padding-left: 10px;
     padding-bottom: 15px;
     
@@ -81,7 +81,25 @@
 
 /* 3. SEKTION - OPLEVELSER*/
 
-/*TESTER OPLEVELSER*/
+/* OPLEVELSER*/
+
+.oplev_intro {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.oplevelser_sektion hr {
+    margin-left: 0;
+    position: relative;
+    top: 90px;
+    width: 320px;
+}
+
+.oplev_intro p {
+    width: 80%;
+}
 
 .sektion_oplevelser {
     display: flex;
@@ -183,5 +201,5 @@
 #singapore_skyline {
     width: 100%;
     position: absolute;
-    top: 3650px;
+    top: 3750px;
 }
