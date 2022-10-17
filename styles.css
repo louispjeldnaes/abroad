@@ -1,6 +1,7 @@
 /*GENEREL STYLING*/
 
 body {
+
     margin: 0;
     padding: 0;
     font-family: 'Mulish', sans-serif;
@@ -24,6 +25,7 @@ h2 {
     text-transform: uppercase;
     text-align: center;
 margin-top: 100px;
+margin-bottom: 0;
     
 }
 
@@ -101,8 +103,6 @@ nav a {
 }
 
 #forside_singapore_tekst {
-    /*padding-top: 350px;
-    padding-left: 100px;*/
 color: #b5ff90;
 position: absolute;
 top: 250px;
@@ -261,11 +261,12 @@ left: 100px;
     font-size: 60px;
     position: relative;
     bottom: 50px;
-    left: 300px;
+    margin-left: 300px;
 }
 
 #test_dig_selv p {
     font-size: 30px;
+    width: 100%;
     position: relative;
     left: 450px;
     bottom: 60px;
@@ -287,16 +288,14 @@ left: 100px;
     left: 675px;
 }
 
-   
-
-
 /* KULTUR */
 
-#kultur_overskrift hr {
+#kultur_hr {
     margin-bottom: 100px;
     position: relative;
     width: 175px;
     left: 175px;
+    
 }
 
 #kultur {
@@ -334,7 +333,7 @@ left: 100px;
 
 
 .kultur_venstre img {
-    width: 55%;
+    width: 356px;
     position: relative;
     left: 290px;
     top: 20px;
@@ -392,7 +391,7 @@ footer h4 {
     text-align: center;
     text-transform: uppercase;
     position: relative;
-    top: 50px;
+    top: 40px;
 }
 
 footer a {
@@ -404,6 +403,7 @@ footer hr {
     width: 250px;
     position: relative;
     left: 75px;
+    top: 40px;
 }
 
 .instagram_billeder {
