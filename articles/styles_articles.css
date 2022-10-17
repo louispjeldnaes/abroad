@@ -1,0 +1,131 @@
+/*DESTINATIONER - ARTIKLER*/ 
+
+/*1. SEKTION - INTRO*/
+.destination_intro {
+    height: 750px;
+    background-image: url(../images/gardens_by_the_bay_intro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 60px;
+    z-index: -1;
+
+    
+}
+
+.destination_intro p, .destination_intro h1 {
+    color: #b5ff90;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.destination_intro h1 {
+    font-size: 50px;
+}
+
+.destination_intro p {
+   
+    margin-top: 0;
+    font-size: 16px;
+}
+
+/*2. SEKTION - FAKTA & INTRO-INDHOLD*/
+
+.artikel_start {
+    display: flex;
+
+}
+.fakta_boks {
+    background-color: #fef6e9;
+    width: 20%;
+    padding: 25px;
+}
+
+.fakta_boks li {
+    font-size: 12px;
+    line-height: 1.7;
+
+}
+
+.grønt_hjørne {
+    border-left: 3px solid #b5ff90;
+    border-top: 3px solid #b5ff90;
+    height: 175px;
+    width: 175px;
+    position: relative;
+    left: 85px;
+}
+
+.artikel_start article {
+    width: 66%;
+    margin-right: 300px;
+    margin-top: 30px;
+}
+
+#anden_sektion p {
+    width: 550px;
+}
+
+#anden_sektion {
+    background-color: #fef6e9;
+
+    margin-left: 338px ;
+    padding-left: 10px;
+    padding-bottom: 15px;
+    
+}
+
+/* 3. SEKTION - OPLEVELSER*/
+
+/*TESTER OPLEVELSER*/
+
+.sektion_oplevelser {
+    display: flex;
+}
+
+/*VENSTRE KORT*/
+
+.kort_oplevelser_venstre {
+    width: 50%;
+    margin-right: 50px;
+    
+}
+
+.kort_oplevelser_venstre img {
+    height: 250px;
+    position: relative;
+    top: 50px; 
+    left: 38px;
+}
+
+.oplevelser_tekst_venstre {
+    background-color: #fef6e9;
+    padding:75px 40px 20px 290px;
+    height: 150px;
+}
+
+
+/* HØJRE KORT*/
+
+.kort_oplevelser_højre {
+    width: 50%;
+    margin-left: 50px;
+}
+
+.kort_oplevelser_højre img {
+    height: 250px;
+    position: relative;
+    top: 50px; 
+}
+
+
+
+.oplevelser_tekst_højre {
+    background-color: #fef6e9;
+    height: 150px;
+    padding: 75px 290px 20px 40px;
+}

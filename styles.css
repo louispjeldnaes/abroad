@@ -49,6 +49,12 @@ h5 {
     margin: 0;
 }
 
+h6 {
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
 hr {
     width: 200px;
     height: 3px;
@@ -56,6 +62,10 @@ hr {
     border-top: 3px solid #b5ff90;
     margin-top: 0;
     margin-left: 320px;
+}
+
+p {
+    font-size: 12px;
 }
 
 /*HEADER*/
@@ -68,6 +78,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
     
 }   
 
@@ -112,9 +123,9 @@ left: 100px;
 
 
 #forside_singapore_tekst p {
-    width: 20%;
+    width: 25%;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .læsmere_knap_grøn {
