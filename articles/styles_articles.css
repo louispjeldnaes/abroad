@@ -279,16 +279,23 @@
 /*1. SEKTION - INTRO*/
 
 #exchange_singapore  .destination_intro {
-    background-image: url(../images/street_food_woman.jpg);
-    background-size: cover;
+    background-image: url(../images/simone_singaporeskyline.jpg);
+    background-size: contain;
+    
 }
 
-#exchange_singapore  .destination_intro h1 {
+#exchange_singapore  .destination_intro h1  {
     width: 50%;
+    position: relative;
+    top: 375px;
+    
 }
 
 #exchange_singapore  .destination_intro p {
     width: 35%;
+    position: relative;
+    top: 375px;
+
 }
 
 /*3. SEKTION*/
@@ -303,6 +310,12 @@
     width: 40%;
     margin-left: 150px;
     
+}
+
+.tredje_sektion article hr {
+    position: relative;
+    right: 560px;
+    width: 300px;
 }
 
 .tredje_sektion img {
@@ -366,11 +379,18 @@
 
 .tekstfelt_billeder  {
     display: flex;
+    
+}
+
+.tekstfelt_billeder .grønt_hjørne {
+    position: relative;
+    left: 290px;
+    top: 40px;
 }
 
 .tekstfelt_venstre  {
     width: 60%;
-    margin-left: 250px;
+    margin-left: 210px;
 }
 
 .tekstfelt_venstre article {
@@ -393,4 +413,24 @@
     position: relative;
     bottom: 250px;
     margin-left: 150px;
+}
+
+#femte_sektion_fortælling .artikel_link {
+    position: absolute;
+    top: 3350px;
+    font-size: 15px;
+    width: 55%;
+    margin-left: 300px;
+    margin-bottom: 100px;
+    border: 0px;
+    background-color: #fef6e9;
+    padding: 20px;
+
+}
+
+#femte_sektion_fortælling .sort_knap {
+    
+    
+    
+    
 }
