@@ -202,7 +202,7 @@
 #singapore_skyline {
     width: 100%;
     position: absolute;
-    top: 3750px;
+    top: 3600px;
 }
 
 
@@ -273,3 +273,124 @@
     
 }
 
+
+/*ARTIKEL - FORTÆLLING FRA SINGAPORE*/
+
+/*1. SEKTION - INTRO*/
+
+#exchange_singapore  .destination_intro {
+    background-image: url(../images/street_food_woman.jpg);
+    background-size: cover;
+}
+
+#exchange_singapore  .destination_intro h1 {
+    width: 50%;
+}
+
+#exchange_singapore  .destination_intro p {
+    width: 35%;
+}
+
+/*3. SEKTION*/
+
+.tredje_sektion {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.tredje_sektion article {
+    width: 40%;
+    margin-left: 150px;
+    
+}
+
+.tredje_sektion img {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.info_boks_grøn {
+    border: 3px solid #b5ff90;
+    padding: 75px 45px 50px 25px;
+    width: 250px;
+}
+
+.info_boks_grøn li {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+/*ARTIKEL LINK*/
+
+.artikel_link {
+    border-left: 3px solid #b5ff90;
+    font-size: 22px;
+    margin-top: 50px;
+    margin: 50px 0px 50px 150px;
+    padding-left: 20px;
+}
+
+.artikel_link a {
+    color: black;
+}
+
+/* 4. SEKTION - TO AFSNIT - ÉN MED LISTE OG ÉN MED BILLEDE*/
+
+.toafsnit_liste_billede {
+    display: flex;
+    justify-content: space-between;
+}
+
+.toafsnit_liste_billede article {
+    background-color: #fef6e9;
+    margin-right: 100px;
+    padding: 40px 0px 40px 100px;
+
+}
+
+.toafsnit_liste_billede li {
+    font-size: 12px;
+    width: 70%;
+    margin-bottom: 10px;
+}
+
+.toafsnit_liste_billede img {
+    width: 60%;
+}
+
+
+/*5. SEKTION - TEKSTFELT OG BILLEDER*/
+
+.tekstfelt_billeder  {
+    display: flex;
+}
+
+.tekstfelt_venstre  {
+    width: 60%;
+    margin-left: 250px;
+}
+
+.tekstfelt_venstre article {
+    width: 70%;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.billeder_højre {
+    margin: 100px 150px 0px 0px ;
+}
+
+.billeder_højre img{
+    width: 90%;
+    margin-bottom: 40px;
+}
+
+#femte_sektion_fortælling .farvet_kasse {
+    height: 350px;
+    position: relative;
+    bottom: 250px;
+    margin-left: 150px;
+}
