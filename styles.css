@@ -10,7 +10,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #b5ff90;
+    color: black;
 }
 h1 {
     font-size: 65px;
@@ -29,6 +29,8 @@ margin-bottom: 0;
     
 }
 
+
+
 h3 {
     font-size: 35px;
     font-weight: 300;
@@ -38,7 +40,7 @@ h3 {
 
 h4 {
     font-weight: 300;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 25px;
     margin-bottom: 15px;
 }
@@ -69,40 +71,82 @@ p {
 }
 
 /*HEADER*/
+
 header { 
-    width: 100%;
     display: flex;
-    justify-content: space-between;
-    background-color: rgba(240,239,237,0.7);
-    height: 60px;
+    background-color: rgba(240,239,237,0.9);
     position: fixed;
     top: 0;
+    justify-content: space-between;
     width: 100%;
     z-index: 100;
-    
-}   
+}
 
 #logo {
     height: 40px;
     margin-left: 25px;
-   
+    margin-top: 10px;
 }
-nav a {
-    text-decoration: none;
-    color: black;
+
+.dropdown {
+
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown li {
+    cursor: pointer;
+    padding: 0.25rem;
+    position: relative;
+}
+
+.dropdown ul {
+    
+    background-color: rgba(240,239,237,0.9);
+    width: 100%;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    font-size: 12px;
+}
+
+.dropdown ul ul {
+    left: 100%;
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+}
+
+.dropdown li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-left: 3px solid #b5ff90;
+}
+
+.dropdown li:hover > ul {
+    display: block;
+}
+
+.dropdown_item {
+    padding: 20px 35px 20px 35px;
     font-size: 14px;
-    font-weight: 400;
-    margin-left: 30px;
-    margin-right: 30px;
- 
-    
-    
 }
+
+
 
 #søge_ikon {
     height: 20px;
-    margin-left: 25px;
+    margin-right: 100px;
+    margin-top: 22px;
 }
+
+
+
 
 /*FORSIDE*/
 
@@ -116,14 +160,17 @@ nav a {
 #forside_singapore_tekst {
 color: #b5ff90;
 position: absolute;
-top: 250px;
+top: 300px;
 left: 100px;
 }
 
-
+#forside_singapore a {
+    color: #b5ff90;
+}
 
 #forside_singapore_tekst p {
     width: 25%;
+    margin-top: 0;
     font-weight: 300;
     font-size: 16px;
 }
@@ -231,27 +278,33 @@ left: 100px;
     width: 90%;
     margin-left: 100px;
     margin-top: 80px;
+ 
+}
+
+.fire_kort img:hover {
+    transform: scale(1.05);
 }
 
 .fire_kort a {
     color: black;
-    width: 250px;
+    width: 230px;
     
 }
 
 .fire_kort img {
     height: auto;
-    width: 250px;
+    width: 240px;
 }
 
+
 .fire_kort p {
-    font-size: 14px;
+    font-size: 13px;
     margin: 0;
 }
 
 .farvet_kasse {
     height: 400px;
-    margin-left: 55px;
+    margin-left: 65px;
     background-color: #fef6e9;
     position: relative;
     bottom: 350px;
@@ -299,7 +352,8 @@ left: 100px;
     left: 675px;
 }
 
-/* KULTUR */
+
+/* OPLEV */
 
 #kultur_hr {
     margin-bottom: 100px;
@@ -318,6 +372,10 @@ left: 100px;
     color: black;
 }
 
+#kultur img:hover {
+    transform: scale(1.05);
+}
+
 /*KULTUR - VENSTRE SEKTION*/
 
 .kultur_venstre {
@@ -330,7 +388,6 @@ left: 100px;
 #tekst_spanien {
     width: 55%;
     padding-left: 20px;
-    
     border-left: 3px solid #b5ff90;
     position: relative;
     top: 65px;
@@ -344,11 +401,10 @@ left: 100px;
 
 
 .kultur_venstre img {
-    width: 356px;
+    width: 371px;
     position: relative;
     left: 290px;
     top: 20px;
-    
 }
 
 
@@ -393,8 +449,8 @@ left: 100px;
 
 /*FOOTER*/
 
-footer {
-    
+footer img:hover {
+    transform: scale(1.05);
 }
 
 footer h4 {

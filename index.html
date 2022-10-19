@@ -12,47 +12,202 @@
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+
+
     <header>
         <a href="index.html"><img id="logo" src="images/Logo_black.png" alt="logo"></a>
         <nav>
-            <a href="#">DESTINATIONER</a>
-            <a href="#">KULTUR</a>
-            <a href="#">FORTÆLLINGER</a>
-            <a href="#">PRAKTISK INFO</a>
-            <a href="#">ØKONOMI & JOB</a>
-        </nav>
-        <a href="#"><img id="søge_ikon" src="images/search-icon.webp" alt="søgeikon"></a>
-        
-    </header>
-    <main>
+            <ul class="dropdown">
+                <!-- DROPDOWN DESTINATIONER-->
+                <li>
+                    <div class="dropdown_item">
+                        DESTINATIONER
+                        
+                    </div>
+                    <ul>
+                        <li><a href="#">Europa</a>
+                            <ul>
+                                <li><a href="#">Belgien</a></li>
+                                <li><a href="#">Finland</a></li>
+                                <li><a href="#">Frankrig</a></li>
+                                <li><a href="#">Grønland</a></li>
+                                <li><a href="#">Holland</a></li>
+                                <li><a href="#">Island</a></li>
+                                <li><a href="#">Italien</a></li>
+                                <li><a href="#">Kroatien</a></li>
+                                <li><a href="#">Letland</a></li>
+                                <li><a href="#">Litauen</a></li>
+                                <li><a href="#">Norge</a></li>
+                                <li><a href="#">Partugal</a></li>
+                                <li><a href="#">Schweiz</a></li>
+                                <li><a href="#">Storbritannien</a></li>
+                                <li><a href="#">Sverige</a></li>
+                                <li><a href="#">Tyskland</a></li>
+                            </ul>
+                        </li>
+                    
+                        <li>Sydamerika
+                            <ul>
+                                <li><a href="#">Argentina</a></li>
+                                <li><a href="#">Bolivia</a></li>
+                                <li><a href="#">Brasilien</a></li>
+                                <li><a href="#">Chile</a></li>
+                                <li><a href="#">Colombia</a></li>
+                                <li><a href="#">Ecuador</a></li>
+                                <li><a href="#">Paraguay</a></li>
+                                <li><a href="#">Peru</a></li>
+                                <li><a href="#">Uruguay</a></li>
+                                <li><a href="#">Venezuela</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li>Asien
+                            <ul>
+                                
+                                <li><a href="#">Bangladesh</a></li>
+                                <li><a href="#">Cambodja</a></li>
+                                <li><a href="#">Filippinerne</a></li>
+                                <li><a href="#">Georgien</a></li>
+                                <li><a href="#">Indien</a></li>
+                                <li><a href="#">Indonesien</a></li>
+                                <li><a href="#">Japan</a></li>
+                                <li><a href="#">Kina</a></li>
+                                <li><a href="#">Laos</a></li>
+                                <li><a href="#">Malaysia</a></li>
+                                <li><a href="#">Myanmar</a></li>
+                                <li><a href="#">Nepal</a></li>
+                                <li><a href="#">Nordkorea</a></li>
+                                <li><a href="articles/article_destination_singapore.html"> Singapore</a></li>
+                                <li><a href="#">Sydkorea</a></li>
+                                <li><a href="#">Taiwan</a></li>
+                                <li><a href="#">Thailand</a></li>
+                                <li><a href="#">Vietnam</a></li>
+                            </ul>
+                        </li>
 
+                        <li>Nord- og Mellemamerika
+                            <ul>
+                                <li><a href="#">Canada</a></li>
+                                <li><a href="#">USA</a></li>
+                                <li><a href="#">Mexico</a></li>
+                                <li><a href="#">Belize</a></li>
+                                <li><a href="#">Costa Rica</a></li>
+                                <li><a href="#">El Salvador</a></li>
+                                <li><a href="#">Guatemala</a></li>
+                                <li><a href="#">Honduras</a></li>
+                                <li><a href="#">Nicaragua</a></li>
+                                <li><a href="#">Panama</a></li>
+                            </ul>
+                        </li>
+
+                        <li>Afrika
+                            <ul>
+                                <li><a href="#">Algeriet</a></li>
+                                <li><a href="#">Egypten</a></li>
+                                <li><a href="#">Libyen</a></li>
+                                <li><a href="#">Marokko</a></li>
+                                <li><a href="#">Sudan</a></li>
+                                <li><a href="#">Tunesien</a></li>
+                                <li><a href="#">Zambia</a></li>
+                                <li><a href="#">Zimbabwe</a></li>
+                                <li><a href="#">Ghana</a></li>
+                                <li><a href="#">Niger</a></li>
+                                <li><a href="#">Senegal</a></li>
+                                <li><a href="#">Etiopien</a></li>
+                                <li><a href="#">Kenya</a></li>
+                                <li><a href="#">Rwanda</a></li>
+                                <li><a href="#">Somalia</a></li>
+                                <li><a href="#">Tanzania</a></li>
+                                <li><a href="#">Ugangda</a></li>
+                                <li><a href="#">Madagaskar</a></li>
+                                <li><a href="#">Mauritius</a></li>
+                                <li><a href="#">Seychellerne</a></li>
+                            </ul>
+                        </li>
+
+                        <li>Oceanien
+                            <ul>
+                                <li><a href="#">Australien</a></li>
+                                <li><a href="#">Fiji</a></li>
+                                <li><a href="#">New Zealand</a></li>
+                            </ul>
+                        </li>
+                        <li> <a href="#">Test - Hvor skal du tage hen?</li></a> 
+                    </ul>
+                </li>
+
+                 <!-- DROPDOWN OPLEV-->
+                <li><div class="dropdown_item">
+                    OPLEV
+                </div>
+                    <ul>
+                        <li><a href="#">Europa</a></li>
+                        <li><a href="#">Sydamerika</a></li>
+                        <li><a href="#">Asien</a></li>
+                        <li><a href="#">Nord- og Mellemamerika</a></li>
+                        <li><a href="#">Afrika</a></li>
+                        <li><a href="#">Oceanien</a></li>
+                    </ul>
+                </li>
+
+                 <!-- DROPDOWN PRAKTISK INFO-->
+                <li><div class="dropdown_item">
+                    PRAKTISK INFO
+                </div>
+                    <ul>
+                        <li><a href="#">Inden afgang</a></li>
+                        <li><a href="#">Typer af udlandsophold</a></li>
+                        <li><a href="#">Sikkerhed & forsikringer</a></li>
+                        <li><a href="#">Fællesskab i udlandet</a></li>
+                        <li><a href="#">Når lokummet brænder</a></li>
+                    </ul>
+                </li>
+
+                 <!-- DROPDOWN ØKONOMI & JOB-->
+                <li><div class="dropdown_item">
+                    ØKONOMI & JOB
+                </div>
+                    <ul>
+                        <li><a href="#">Legater & SU</a></li>
+                        <li><a href="#">Job i udlandet</a></li>
+                        <li><a href="#">Budget & sparetips</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        
+        <a href="#"><img id="søge_ikon" src="images/search-icon.webp" alt="søgeikon"></a>
+    </header>
+    
     <!-- 1. SEKTION OM SINGAPORE -->
         <section id="forside_singapore">
             <div id="forside_singapore_tekst">
                 <h1>Singapore</h1>
-                <p>Et land som fejrer at det er et kulturelt smeltedigel, 
+                <p>Et land som fejrer, at det er en kulturel smeltedigel, 
                     fuld af kontraster. Oplev den moderne storby, og 
-                    udforsk de traditionelle bydele. Med konstante varme 
-                    temperature og en et væld af fantastisk mad, er 
-                    Singapore blevet et af Asiens hit-liste destinationer. 
+                    udforsk de traditionelle bydele. Med konstante, varme 
+                    temperature og et væld af fantastisk mad, er 
+                    Singapore blevet et af Asiens hit destinationer. 
                 </p>
-                <a href="#"><div class="læsmere_knap_grøn">
+                <a href="articles/article_destination_singapore.html"><div class="læsmere_knap_grøn">
                 Læs mere
                 </div></a>
 
             </div>
-    <!-- 2. SEKTION OM POPULÆRE DESTINATIONER -->
+  
         </section>
-         <h2>Populære destinationer</h2>
-         <hr>
-        <section class="tre_kort">
+    <!-- 2. SEKTION OM POPULÆRE DESTINATIONER -->
+         
+    <h2>Populære destinationer</h2>
+    <hr>
+    <section class="tre_kort">
           
             <div id="kort_norge">
                 <div class="tre_kort_stor_tekst">
                     <a href="#"><h3>Norge</h3>
-                    <p>Essensen af Norges appel er utrolig simple: 
-                    dette er et af de smukkeste lande i verden. </p> 
+                    <p>Essensen af Norges appel kan forklares kort: 
+                    Dette er et af de smukkeste lande i verden. </p> 
                     </a>
                 </div>
                  <hr>
@@ -91,33 +246,33 @@
                 <!-- container til kort.-->
                 <div class="fire_kort">
                     <!--4 x kort-->
-                    <a href="#">
+                    <a href="articles/article_kultur_streetfood.html">
                         <img src="images/streetfood_kvadrat.jpg" alt="billed af street food vogn i asien">                         
                         <h4>Street food i Asien</h4>
                         <p>Asien er et madmekka uden lige - og de har noget 
                             af det bedste street food du kan finde! Læs her, 
-                            hvilke retter du må prøve, på din næste tur.</p>
+                            hvilke retter du må prøve på din næste tur.</p>
                     </a>
-                    <a href="#">
+                    <a href="articles/article_fortælling_singapore.html">
                         <img src="images/simones_kvadrat.jpg" alt="ung studerende i botanisk have i singapore">
                         <h4>Exchange student i Singapore</h4>
-                        <p>Mød Simone som har været exhange student i Singapore 
+                        <p>Mød Simone, som har været exhange student i Singapore 
                             i 6 mdr. Hør om hendes rejse, få et indblik i hverdagen 
-                            og få nogle tips, til at opleve Singapore.</p>
+                            og få nogle tips til at opleve Singapore.</p>
                     </a>
                     <a href="#">  
                         <img src="images/pas.jpg" alt="kamera, pas, briller, og billetter på et bord">
                         <h4>Inden afgang</h4>
-                        <p>Her har vi samlet alt du skal vide og tænke på, når du 
-                            skal rejse - lige fra pakkelister, til gode råd i 
+                        <p>Her har vi samlet alt du skal vide, når du 
+                            skal rejse til udlandet - lige fra pakkelister, til gode råd i 
                             lufthavnen. Så tjek lige listen ud, inden du skal afsted 
                             - måske er der noget du ikke har tænkt på? </p>              
                     </a> 
                     <a href="#"> 
                         <img src="images/friends.jpg" alt="to kvinder og to mænd griner sammen i bjergene med rygsække på">  
                         <h4>Find fællesskaber</h4>
-                        <p>Det er naturligt for mange at være lidt bekymret over, 
-                            hvordan man finder venner og fællesskaber i ulandet - 
+                        <p>Det er naturligt for mange at være nervøse over, 
+                            om man finder venner og fællesskaber i udlandet - 
                             specielt, hvis man rejser alene. Her har vi samlet 
                             gode råd, mulige mødesteder, apps, og hjemmesider, 
                             der kan hjælpe dig med at finde venner for livet. </p>
@@ -147,7 +302,7 @@
 
                 <!-- 5. SEKTION OM KULTUR -->
         
-        <h2 id="kultur_overskrift">kultur</h2>
+        <h2 id="kultur_overskrift"><a href="#"> Oplev</a></h2>
         <hr id="kultur_hr">
         <section id="kultur">
             
@@ -161,12 +316,11 @@
                             vil opleve. Landet er rigt på historie, 
                             fascinerende kultur, fortryllende natur 
                             og smagfuld mad. Vi har her samlet, de 
-                            bedste ting at opleve, hvis du slå et 
-                            smut forbi. </p>
+                            bedste ting at opleve, hvis du skal hertil. </p>
                         </div>
                     </a>
                 </div>
-                <img src="images/Expiatori_del_sagrat_cor_Barcelona.png" alt="billede af kirke i Barcelona Spanien">
+                <a href="#"><img src="images/Expiatori_del_sagrat_cor_Barcelona.png" alt="billede af kirke i Barcelona Spanien"></a>
             </div>
             
             <div class="kultur_højre">
@@ -231,19 +385,19 @@
         <section class="om_os">
             <div id="omos_tekst">
                 <h5>Om os</h5>
-                <p>Vi er et magasin der er lavet af drømmere som 
-                    ikke kan vente til det næste store eventyr vi 
+                <p>Vi er et magasin, der er lavet af drømmere, som 
+                    ikke kan vente til det næste store eventyr, vi 
                     skal på. Vi vil gerne være med til at inspire  
                     og hjælpe folk - især unge - til at komme ud 
                     og opleve verden. 
                     <br>
                     <br>
-                    VI brænder for at formidle og informere om 
+                    Vi brænder for at formidle og informere om 
                     lande, kultur, folkefærd, sights og mad. 
                     Det kan du forhåbentlig mærke igennem skærmen. 
                     Vi håber at du har fundet det du ville, ellers 
                     håber vi at du vil smide en besked til os om 
-                    dine ønsker og mangler.</p>
+                    dine ønsker.</p>
             </div>
     
             <div id="kontakt">

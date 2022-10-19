@@ -106,6 +106,10 @@
     display: flex;
 }
 
+.oplevelser_sektion img:hover {
+    transform: scale(1.05);
+}
+
 /*VENSTRE KORT*/
 
 .kort_oplevelser_venstre {
@@ -187,22 +191,23 @@
 }
 
 .tips_section article {
-    width: 70%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 75px;
-    padding-bottom: 75px;
+    padding-bottom: 100px;
 }
 
 .tips_section li {
     text-decoration: none;
     font-size: 12px ;
+    margin-top: 8px;
 }
 
 #singapore_skyline {
     width: 100%;
     position: absolute;
-    top: 3600px;
+    top: 3850px;
 }
 
 
@@ -239,11 +244,14 @@
 .liste_med_ting p {
     width: 450px;
 }
+
+
+
 /*Øverste kort*/
 
 .kulturliste_kort_øverste {
     display: flex;
-    margin-left: 200px;
+    margin-left: 199px;
     margin-top: 45px;
     margin-bottom: 20px;
 }
@@ -297,6 +305,25 @@
     top: 375px;
 
 }
+
+/* 2. SEKTION - FAKTABOKS + INDHOLD*/
+
+#exchange_singapore .fakta_boks {
+    background-color: white;
+}
+
+.tekst_farvet_kasse {
+    background-color: #fef6e9;
+    margin-top: 30px;
+    padding: 0px 160px 15px 10px;
+    position:relative;
+    right: 10px;
+    width: 123%;
+}
+.tekst_farvet_kasse p {
+    width: 80%;
+}
+
 
 /*3. SEKTION*/
 
@@ -379,7 +406,6 @@
 
 .tekstfelt_billeder  {
     display: flex;
-    
 }
 
 .tekstfelt_billeder .grønt_hjørne {
@@ -415,22 +441,42 @@
     margin-left: 150px;
 }
 
-#femte_sektion_fortælling .artikel_link {
-    position: absolute;
-    top: 3350px;
-    font-size: 15px;
-    width: 55%;
-    margin-left: 300px;
-    margin-bottom: 100px;
-    border: 0px;
-    background-color: #fef6e9;
-    padding: 20px;
+
+
+/*ASIEN - DESTINATION OVERVIEW*/
+
+/*INTRO TIL ASIEN*/
+
+#asien_overview .destination_intro {
+    background-image: url(../images/asien.jpg);
+    background-size: cover;
+    height: 700px;
+}
+
+
+/*1. SEKTION - Populære destinationer*/
+
+#kort_indonesien {
+    background-image: url(../images/Indonesien.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   width: 65%;
+   margin-top: 70px;
+   margin-right: 45px;
 
 }
 
-#femte_sektion_fortælling .sort_knap {
-    
-    
-    
-    
+#kort_indonesien .tre_kort_stor_tekst {
+    position: relative;
+    top: 330px;
 }
+
+#kort_indonesien hr {
+    position: relative;
+    top: 330px;
+    right: 320px;
+    width: 275px;
+}
+
+#asien_overview .artikel_overview {
+   height: 500px;
