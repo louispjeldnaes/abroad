@@ -9,8 +9,6 @@
     position: relative;
     bottom: 60px;
     z-index: -1;
-
-    
 }
 
 .destination_intro p, .destination_intro h1 {
@@ -37,7 +35,6 @@
 
 .artikel_start {
     display: flex;
-
 }
 .fakta_boks {
     background-color: #fef6e9;
@@ -48,7 +45,6 @@
 .fakta_boks li {
     font-size: 12px;
     line-height: 1.7;
-
 }
 
 .grønt_hjørne {
@@ -76,8 +72,7 @@
 
     margin-left: 425px ;
     padding-left: 10px;
-    padding-bottom: 15px;
-    
+    padding-bottom: 15px;  
 }
 
 /* 3. SEKTION - OPLEVELSER*/
@@ -110,12 +105,12 @@
     transform: scale(1.05);
 }
 
+
 /*VENSTRE KORT*/
 
 .kort_oplevelser_venstre {
     width: 50%;
     margin-right: 50px;
-    
 }
 
 .kort_oplevelser_venstre img {
@@ -145,8 +140,6 @@
     top: 50px; 
 }
 
-
-
 .oplevelser_tekst_højre {
     background-color: #fef6e9;
     height: 150px;
@@ -155,8 +148,6 @@
 
 
 /*4. SEKTION - afsnit 2*/
-
-
 
 .afsnit_to {
     width: 50%;
@@ -236,15 +227,13 @@
 
 
 /*Liste med retter*/
-.liste_med_ting {
-    
+.liste_med_ting { 
     margin-bottom: 100px;
 }
 
 .liste_med_ting p {
     width: 450px;
 }
-
 
 
 /*Øverste kort*/
@@ -278,7 +267,6 @@
     padding: 50px 100px 50px 200px;
     position: relative;
     top: 80px;
-    
 }
 
 
@@ -289,21 +277,18 @@
 #exchange_singapore  .destination_intro {
     background-image: url(../images/simone_singaporeskyline.jpg);
     background-size: contain;
-    
 }
 
 #exchange_singapore  .destination_intro h1  {
     width: 50%;
     position: relative;
     top: 375px;
-    
 }
 
 #exchange_singapore  .destination_intro p {
     width: 35%;
     position: relative;
     top: 375px;
-
 }
 
 /* 2. SEKTION - FAKTABOKS + INDHOLD*/
@@ -320,6 +305,7 @@
     right: 10px;
     width: 123%;
 }
+
 .tekst_farvet_kasse p {
     width: 80%;
 }
@@ -331,12 +317,10 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-
 }
 .tredje_sektion article {
     width: 40%;
     margin-left: 150px;
-    
 }
 
 .tredje_sektion article hr {
@@ -349,7 +333,6 @@
     width: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
-
 }
 
 .info_boks_grøn {
@@ -388,7 +371,6 @@
     background-color: #fef6e9;
     margin-right: 100px;
     padding: 40px 0px 40px 100px;
-
 }
 
 .toafsnit_liste_billede li {
@@ -463,7 +445,6 @@
    width: 65%;
    margin-top: 70px;
    margin-right: 45px;
-
 }
 
 #kort_indonesien .tre_kort_stor_tekst {
@@ -478,5 +459,14 @@
     width: 275px;
 }
 
-#asien_overview .artikel_overview {
-   height: 500px;
+
+
+
+/*OPLEV ASIEN - SIDE*/
+
+.artikel_overview .fire_kort {
+   
+}
+
+
+

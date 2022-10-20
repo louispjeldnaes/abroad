@@ -12,6 +12,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 h1 {
     font-size: 65px;
     text-transform: uppercase;
@@ -24,18 +25,14 @@ h2 {
     font-size: 35px;
     text-transform: uppercase;
     text-align: center;
-margin-top: 100px;
-margin-bottom: 0;
-    
+    margin-top: 100px;
+    margin-bottom: 0;
 }
-
-
 
 h3 {
     font-size: 35px;
     font-weight: 300;
     margin: 0;
-    
 }
 
 h4 {
@@ -181,8 +178,6 @@ left: 100px;
     padding: 7px 15px 7px 25px;
     font-size: 16px;
     margin-top: 30px;
-    
-    
 }
 
 /*POPULÆRE DESTINATIONER*/
@@ -195,14 +190,14 @@ left: 100px;
 .tre_kort a {
     color: white;
 }
+
 #kort_norge {
     background-image: url(images/norge.png);
     background-size: cover;
     background-repeat: no-repeat;
-   width: 65%;
-   margin-top: 75px;
-   margin-right: 45px;
-
+    width: 65%;
+    margin-top: 75px;
+    margin-right: 45px;
 }
 
 .tre_kort_stor_tekst {
@@ -210,10 +205,11 @@ left: 100px;
     top: 430px;
     left:200px;
 }
+
 .tre_kort_stor_tekst h3 {
     font-size: 45px;
-
 }
+
 #kort_norge hr {
     position: relative;
     top: 435px;
@@ -229,9 +225,8 @@ left: 100px;
     width: 500px;
     height: 320px;
     margin-top: 100px;
-    
-
 }
+
 #kort_groenland {
     background-image: url(images/groenland.jpg);
     background-repeat: no-repeat;
@@ -240,7 +235,6 @@ left: 100px;
     width: 500px;
     height: 320px;
     margin-top: 25px;
-
 }
 
 .tre_kort p {
@@ -264,13 +258,11 @@ left: 100px;
 
 .artikel_overview {
     height: 700px;
-    
 }
+
 .artikel_overview hr {
     margin-left: 490px;
 }
-
-
 
 .fire_kort {
     display: flex;
@@ -278,7 +270,6 @@ left: 100px;
     width: 90%;
     margin-left: 100px;
     margin-top: 80px;
- 
 }
 
 .fire_kort img:hover {
@@ -288,7 +279,6 @@ left: 100px;
 .fire_kort a {
     color: black;
     width: 230px;
-    
 }
 
 .fire_kort img {
@@ -360,7 +350,6 @@ left: 100px;
     position: relative;
     width: 175px;
     left: 175px;
-    
 }
 
 #kultur {
@@ -368,6 +357,7 @@ left: 100px;
     display: flex;
     font-weight: 400;
 }
+
 #kultur a {
     color: black;
 }
@@ -417,10 +407,8 @@ left: 100px;
 }
 
 .kultur_højre div {
-    
     display: flex;
     margin-bottom: 20px;
-    
 }
 
 
@@ -440,8 +428,8 @@ left: 100px;
 .kultur_højre p {
     font-size: 14px;
     width: 70%;
-    
 }
+
 .kultur_højre h5 {
     margin-top: 30px ;
     margin-right: 50px;
@@ -479,8 +467,8 @@ footer hr {
     justify-content: center;
     position: relative;
     top: 87.5px;
-
 }
+
 .instagram_billeder img {
     width: 175px;
     margin-left: 5px;
@@ -493,6 +481,7 @@ footer hr {
     justify-content: space-around;
     padding: 200px 100px 100px 100px ;
 }
+
 .om_os p {
     font-size: 14px;
 }
@@ -500,6 +489,7 @@ footer hr {
 #omos_tekst {
     width: 50%;
 }
+
 #omos_tekst p {
     width: 95%;
 }
